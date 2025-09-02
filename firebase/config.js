@@ -3,15 +3,18 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyADxAbCD14cVMGwHV073xLmwiIS378RQgA",
-  authDomain: "ecell-uvce-ecc2d.firebaseapp.com",
-  projectId: "ecell-uvce-ecc2d",
-  storageBucket: "ecell-uvce-ecc2d.firebasestorage.app",
-  messagingSenderId: "386919032346",
-  appId: "1:386919032346:web:4c7e34200faed58ab793a3",
-  measurementId: "G-E6WT5T6D48"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
+
+
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
