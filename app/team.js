@@ -489,8 +489,8 @@ const teamOf25 = {
       imageUrl: "https://i.postimg.cc/cC90dFr2/Kankana-Ghosh-PR-Lead-ECE-2027.jpg",
     },
     {
-      name: "karthikey D Kadati",
-      post: "Co-Lead",
+      name: "Karthikey D Kadati",
+      post: "Vice-Lead",
       instagram: "karthikey_kadati",
       linkedin: "https://www.linkedin.com/in/karthikey-kadati-277420279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "Karthikey D Kadati",
@@ -594,7 +594,7 @@ const teamOf25 = {
     },
     {
       name: "Jagruthi Kareholi",
-      post: "Co-Lead",
+      post: "Vice-Lead",
       instagram: "sapien.j_j",
       linkedin: "https://www.linkedin.com/in/jagruthi-kareholi",
       email: "jagruthikareholi@gmail.com",
@@ -713,7 +713,7 @@ const teamOf25 = {
     },
     {
       name: "Skanda Bharadwaj",
-      post: "Co-Lead",
+      post: "Vice-Lead",
       Instagram: "ska._.nda",
       linkedin: "https://www.linkedin.com/in/skanda-bharadwaj-35779021b",
       email: "skandabharadwaj11@gmail.com",
